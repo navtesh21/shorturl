@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>ShortUrl</title>
+  <link rel="icon" href="./icons8-url-120.png"/> 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <h1><img style="padding: 0;" width="50" height="" src="https://img.icons8.com/clouds/100/domain.png" alt="domain"/>Url Shortner</h1>
+    <label for="longUrl" style="display: block-flex; ">Enter Long URL:</label>
+    <input type="text" id="longUrl" placeholder="https://example.com">
+   <div class="btn"> <button onclick="shortenUrl()">Shorten</button></div>
+    <div class="url"><p id="shortUrl" style="display: inline;"></p><u id="link" style="color: #0000FF; cursor: pointer;"></u></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
